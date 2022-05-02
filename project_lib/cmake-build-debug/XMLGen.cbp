@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="XMLGen"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XMLGen">
+				<Option output="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/XMLGen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/llvm-13/lib/clang/13.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 XMLGen"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="XMLGen/fast">
+				<Option output="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/XMLGen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/llvm-13/lib/clang/13.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 XMLGen/fast"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/filip/clionprojects/XMLGen/project_lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/filip/clionprojects/XMLGen/doctest_test/test_.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CsvForm.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CsvForm.hpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CsvLine.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CsvLine.hpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CsvLoader.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CsvLoader.hpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/XMLform.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/XMLform.hpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/dataSearch.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/dataSearch.hpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/main.cpp">
+			<Option target="XMLGen"/>
+		</Unit>
+		<Unit filename="/home/filip/clionprojects/XMLGen/project_lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

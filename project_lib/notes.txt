@@ -1,0 +1,85 @@
+
+class Loader(){
+    const std::filesystem::directory_entry d{"/home/filip/clionprojects/XMLGen"};
+
+    std::filesystem::path pathText_{d};
+    std::filesystem::path pathXSD_{d};
+
+    pathText_.append("contacts.txt");
+    pathXSD_.append("contacts.xsd");
+
+    std::cout << "path -> " << pathText_ << "\n";
+    std::cout << "path -> " << pathXSD_ << "\n";
+
+    std::ifstream myfileText(pathText_);
+    std::ifstream myfileXSD(pathXSD_);
+
+    myfileText.is_open();
+
+    if (!myfileText.is_open()) {
+        std::cout << "Unable to load text the file" << "\n";
+        myfileText.close();
+    }
+
+    if (!myfileXSD.is_open()) {
+        std::cout << "Unable to load XSD the file" << "\n";
+        myfileXSD.close();
+    }
+
+    int count;
+    std::ifstream inputFileStream(pathText_);
+    std::ifstream inputXSDStream(pathXSD_);
+
+    inputFileStream >> count;
+
+
+
+
+
+
+    for(int i = 0; i < count; i++) {
+
+        //inputFileStream.ignore(1, '|');
+
+
+
+        std::string line;
+
+        std::getline(inputFileStream, line, '|');
+        std::istringstream lineStream(line);
+
+
+
+        std::string id;
+        std::string firstname;
+        std::string lastname;
+        std::string email;
+        std::string country;
+
+        // txt elements parser
+
+
+        std::getline(lineStream, id,',');
+        std::getline(lineStream, firstname,',' );
+        std::getline(lineStream, lastname,',' );
+        std::getline(lineStream, email,',');
+        std::getline(lineStream, country,',');
+
+
+
+
+        std::cout<< firstname << id << lastname << email <<  country << id << std::endl << "\n";
+
+
+
+        // parsed items into a hash table
+
+
+
+
+    }
+
+
+    return 0;
+
+};

@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\flaqy\clionprojects_local\XMLGen\project_lib Select CMakeLists.txt
